@@ -68,6 +68,7 @@ h2 {
 
 ul {
   margin-left: 40px;
+  list-style-position: inside;
 }
 
 p {
@@ -82,6 +83,39 @@ p {
   margin: 20px;
   margin-bottom: 20px;
   align-content: center;
+}
+
+.flex {
+  display: flex;
+  margin-top: 20px;
+}
+
+.flex > * {
+  flex: 1 0;
+  margin: 0 20px;
+}
+
+.bg-1 {
+background-image: url(https://www.euphoriazine.com/wp-content/uploads/2020/04/earl-sweatshirt-online.jpg);
+  background-size: cover;
+}
+
+.bg-2 {
+  background-image: url(https://filmfork-cdn.s3.amazonaws.com/content/spiritedawaytracks.jpg);
+  background-size: cover;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.p-link {
+  text-decoration: none;
+  color: blue;
+}
+
+.red { 
+  color: red;
 }
 
 /* slideshow */
