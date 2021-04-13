@@ -63,12 +63,12 @@ h2 {
   color: white;
   font-family: "New Tegomin", serif;
   font-size: 30px;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 ul {
   margin-left: 40px;
-  list-style-position: inside;
+  list-style-position: outside;
 }
 
 p {
@@ -96,7 +96,7 @@ p {
 }
 
 .bg-1 {
-background-image: url(https://www.euphoriazine.com/wp-content/uploads/2020/04/earl-sweatshirt-online.jpg);
+  background-image: url(https://www.euphoriazine.com/wp-content/uploads/2020/04/earl-sweatshirt-online.jpg);
   background-size: cover;
 }
 
@@ -114,8 +114,16 @@ background-image: url(https://www.euphoriazine.com/wp-content/uploads/2020/04/ea
   color: blue;
 }
 
-.red { 
+.red {
   color: red;
+}
+
+.no-blank-space {
+  margin-bottom: 30px;
+}
+
+.quote {
+  font-style: italic;
 }
 
 /* slideshow */
