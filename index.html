@@ -49,7 +49,7 @@
     <div class="imgbox">
       <img
         class="center-fit"
-        src="./images/instaprofilepicfinal.png"
+        src="instaprofilepicfinal.png"
         alt="Walter Reinke"
       />
     </div>
@@ -109,7 +109,7 @@
         <div class="numbertext">1 / 4</div>
         <img
           class="resize"
-          src="./images/walt.jpg"
+          src="walt.jpg"
           alt="Walter and a dog"
           style="width: 100%"
         />
@@ -119,7 +119,7 @@
         <div class="numbertext">2 / 4</div>
         <img
           class="resize"
-          src="./images/graduation.jpg"
+          src="graduation.jpg"
           alt="Walter and some friends at graduation"
           style="width: 100%"
         />
@@ -129,7 +129,7 @@
         <div class="numbertext">3 / 4</div>
         <img
           class="resize"
-          src="./images/boys-copy.jpg"
+          src="boys-copy.jpg"
           alt="Walter and his friends"
           style="width: 100%"
         />
@@ -139,7 +139,7 @@
         <div class="numbertext">4 / 4</div>
         <img
           class="resize"
-          src="./images/golf.jpg"
+          src="golf.jpg"
           alt="Walter and his friends on the golf course"
           style="width: 100%"
         />
@@ -237,3 +237,261 @@
     </div>
   </body>
 </html>
+
+<style>
+  body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: darkseagreen;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .fa {
+    font-size: 40px;
+    align-items: center;
+  }
+
+  a i {
+    text-decoration: none;
+    color: white;
+  }
+
+  i {
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  header {
+    background-color: black;
+    height: 70px;
+  }
+
+  .imgbox {
+    display: grid;
+    height: 100%;
+  }
+
+  .center-fit {
+    max-width: 100%;
+    max-height: 65vh;
+    margin: auto;
+  }
+
+  .resize {
+    float: inherit;
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+    margin: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1 {
+    font-family: "New Tegomin", serif;
+    font-size: 50px;
+    color: white;
+  }
+
+  h2 {
+    color: white;
+    font-family: "New Tegomin", serif;
+    font-size: 30px;
+    margin-left: 20px;
+  }
+
+  ul {
+    margin-left: 40px;
+    list-style-position: outside;
+  }
+
+  p {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .boxed {
+    border-style: solid;
+    border-color: white;
+    padding: 10px;
+    margin: 20px;
+    margin-bottom: 20px;
+    align-content: center;
+  }
+
+  .flex {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .flex > * {
+    flex: 1 0;
+    margin: 0 20px;
+  }
+
+  .bg-1 {
+    background-image: url(https://www.euphoriazine.com/wp-content/uploads/2020/04/earl-sweatshirt-online.jpg);
+    background-size: cover;
+  }
+
+  .bg-2 {
+    background-image: url(https://filmfork-cdn.s3.amazonaws.com/content/spiritedawaytracks.jpg);
+    background-size: cover;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  .p-link {
+    text-decoration: none;
+    color: blue;
+  }
+
+  .red {
+    color: red;
+  }
+
+  .no-blank-space {
+    margin-bottom: 30px;
+  }
+
+  .quote {
+    font-style: italic;
+  }
+
+  /* slideshow */
+  /* followed tutorial from https://www.w3schools.com/howto/howto_js_slideshow.asp */
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active,
+  .dot:hover {
+    background-color: #717171;
+  }
+
+  /* video */
+  .mw-med {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+
+  .aspect-ratio {
+    position: relative;
+    background: black;
+    width: 100%;
+    padding-top: 56.25%;
+  }
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+
+<script>
+  // followed tutorial from https://www.w3schools.com/howto/howto_js_slideshow.asp
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides((slideIndex += n));
+  }
+
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showSlides((slideIndex = n));
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {
+      slideIndex = 1;
+    }
+    if (n < 1) {
+      slideIndex = slides.length;
+    }
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+  }
+</script>
